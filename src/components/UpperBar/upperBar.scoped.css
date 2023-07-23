@@ -1,0 +1,64 @@
+.flex-upper{
+    display: flex;
+    /* min-width: 310px; */
+    width: 97%;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}dialog {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    padding: 1em;
+    height: 300px;
+    border:none;
+    border-radius: 20px;
+
+  }
+  .close-btn:hover{
+    background-color:rgba(0,0,0,0.4);
+}
+.inputs-container{
+    display: flex;
+    flex-direction: column;
+}
+.close-btn{
+    position: absolute;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    top: 2%;
+    left: 2%;
+    border-radius: 50%;
+    padding: 0.2em 0.4em;
+    transition: 0.2s ease-in;
+
+}.submit-btn{
+    border: none;
+    background-color: rgb(29, 93, 149);
+    color: white;
+    font-size: 1.3rem;
+    margin-right:  auto;
+    margin-left: auto;
+    margin-top: 30px;
+    border-radius: 20px;
+    padding: 0.5em 1em;
+    /* width: 50%; */
+} .edit-head {
+    text-align: center !important; 
+}
+
+.add-user-btn{
+    padding: 1em 2.5em;
+    border:none;
+    cursor: pointer;
+    background-color: blue;
+    border-radius: 30px;
+    color: white;
+
+}
+.add-user-btn span{
+    padding-right: 5px;
+    vertical-align: middle;
+}
