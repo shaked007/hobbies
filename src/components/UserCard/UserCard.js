@@ -1,5 +1,6 @@
 import React, { useState,useRef } from 'react';
 import './userCard.scoped.css'
+import {Link} from 'react-router-dom'
 import { Pen, Trash,X } from 'react-bootstrap-icons';
 import TextField from '@mui/material/TextField';
 import { useDispatch,useSelector } from 'react-redux';
@@ -70,14 +71,14 @@ const handleDeleteUser = () => {
         <h2 className='name'>{name}</h2>
         <span> {email}</span>
         <div className='flex-action-btns'>
-          <button className='edit-btn' 
-          onClick={()=>dialogRef.current.showModal()}> 
+          <Link className='edit-btn' 
+          to={`/update-user/${id}`}> 
           <span>
           <Pen />
           </span>
           edit
          
-          </button>
+          </Link>
           <button onClick={handleDeleteUser} className='delete-btn'> 
           <span>
           <Trash  size={'1.3rem'} />

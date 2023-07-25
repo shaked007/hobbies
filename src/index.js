@@ -4,6 +4,7 @@ import App from './routes/main/App';
 import AddUser from './routes/AddUser/AddUser';
 import {Provider} from 'react-redux'
 import store from './store/index' 
+import EditUser from './routes/EditUser/EditUser'
 import './index.css'
 import {
     createBrowserRouter,RouterProvider} from "react-router-dom";
@@ -14,12 +15,14 @@ import {
             element:<App />
         },
         {
+            path:'/update-user/:id',
+            element:<EditUser/>
+        },
+        {
             path:'/add-user',
             element:<AddUser/> 
         },
-        {
-
-        }
+      
     ])
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

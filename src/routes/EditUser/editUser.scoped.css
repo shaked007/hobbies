@@ -1,0 +1,38 @@
+.inputs-container{
+    display: flex;
+    max-width: 800px;
+    margin: 0 auto;
+    flex-direction: column;
+}
+.close-btn{
+    position: absolute;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    top: 2%;
+    left: 2%;
+    border-radius: 50%;
+    padding: 0.2em 0.4em;
+    transition: 0.2s ease-in;
+
+}
+.spinner-container{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+}
+.submit-btn{
+    border: none;
+    background-color: rgb(29, 93, 149);
+    color: white;
+    font-size: 1.3rem;
+    margin-right:  auto;
+    margin-left: auto;
+    margin-top: 30px;
+    border-radius: 20px;
+    padding: 0.5em 1em;
+    /* width: 50%; */
+} .edit-head {
+    text-align: center !important; 
+}

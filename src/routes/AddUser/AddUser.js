@@ -52,7 +52,7 @@ export default function AddUser(){
             name:""
       
           })
-        await  dispatch(addUser({name:nameValue,email:emailValue,location:locationValue,id:nameValue+'3'}))
+        await  dispatch(addUser({name:nameValue,email:emailValue,location:locationValue}))
         if(!error){
           navigate('/')
         }
@@ -71,7 +71,7 @@ export default function AddUser(){
       return (     
         <div>
       <Link className='close-btn' to='/'> cancel add user</Link>
-    <h1 className='edit-head'> user details</h1>
+    <h1 className='edit-head'> add user </h1>
     <form onSubmit={handleSubmit} className='inputs-container'> 
       <TextField error={nameError} 
       name='name'

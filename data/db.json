@@ -1,0 +1,38 @@
+{
+  "users": [
+    {
+      "name": "shinui",
+      "email": "anne-rose.wollschlager@example.com",
+      "location": "Katzenelnbogen",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "name": "Miss Emma Odonoghue",
+      "location": "Celbridge",
+      "email": "emma.odonoghue@example.com",
+      "picture": "https://randomuser.me/api/portraits/women/57.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Miss Abbey Hawkins",
+      "location": "New Ross",
+      "email": "abbey.hawkins@example.com",
+      "picture": "https://randomuser.me/api/portraits/women/61.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Mrs Vanessa Harrison",
+      "location": "Bendigo",
+      "email": "vanessa.harrison@example.com",
+      "picture": "https://randomuser.me/api/portraits/women/3.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Mr Yanniek Reijerse",
+      "location": "Lingewaal",
+      "email": "yanniek.reijerse@example.com",
+      "picture": "https://randomuser.me/api/portraits/men/43.jpg"
+    }
+  ]
+}
